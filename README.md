@@ -1,86 +1,61 @@
-# Project 7: Predictive Modeling
+# Predictive Modeling — Customer Churn
 
-## Objective
-
-Build machine learning models to predict customer churn using the IBM Telco Customer Churn dataset.
-
----
+A focused classification exercise comparing **Logistic Regression** and **K-Nearest Neighbors (KNN)** on the IBM Telco Customer Churn dataset.
 
 ## Dataset
 
-- Dataset: IBM Telco Customer Churn Dataset
-- Records: 7,043
-- Target Variable: Churn
+| Attribute | Value |
+|---|---:|
+| Dataset | IBM Telco Customer Churn |
+| Records | 7,043 |
+| Target | `Churn` |
+| Problem Type | Binary Classification |
 
----
+## Workflow
 
-## Machine Learning Workflow
+1. Data loading
+2. Data cleaning
+3. Categorical encoding
+4. Train-test split
+5. Feature scaling
+6. Logistic Regression
+7. KNN
+8. Model evaluation
+9. Model comparison
 
-1. Import Libraries
-2. Load Dataset
-3. Data Cleaning
-4. Label Encoding
-5. Train-Test Split
-6. Feature Scaling
-7. Logistic Regression
-8. K-Nearest Neighbors (KNN)
-9. Model Evaluation
-10. Model Comparison
-
----
-
-## Models Implemented
-
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-
----
-
-## Results
+## Reported Results
 
 | Model | Accuracy |
-|--------|----------|
-| Logistic Regression | 81.48% |
-| K-Nearest Neighbors (KNN) | 77.29% |
+|---|---:|
+| Logistic Regression | **81.48%** |
+| KNN | **77.29%** |
 
-**Best Performing Model:** Logistic Regression
+On this evaluation, Logistic Regression achieved the higher reported accuracy.
 
----
+## Skills Demonstrated
 
-## Skills Learned
-
-- Data Cleaning
-- Label Encoding
-- Train-Test Split
-- Feature Scaling
+- Binary classification
+- Data preprocessing
+- Feature scaling
 - Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Confusion Matrix
-- Classification Report
-- Model Comparison
+- KNN
+- Confusion-matrix analysis
+- Classification reports
+- Model comparison
 
----
+## Portfolio Role
 
-## Project Structure
-
-```
-07-Predictive-Modeling/
-├── data/
-├── notebooks/
-├── outputs/
-├── images/
-├── reports/
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
-```
-
----
+This repository documents a focused modeling exercise. The broader end-to-end churn repositories on this profile contain more complete business framing and evaluation.
 
 ## Future Improvements
 
-- Train additional classification models.
-- Perform hyperparameter tuning.
-- Compare advanced evaluation metrics.
-- Build an end-to-end machine learning pipeline.
+- Add precision, recall, F1, ROC-AUC, and PR-AUC
+- Use stratified cross-validation
+- Tune KNN hyperparameters
+- Compare tree-based and boosting models
+- Address class imbalance
+
+---
+
+**Author:** Manan Paliwal  
+B.Tech Computer Science Engineering — Artificial Intelligence & Machine Learning
